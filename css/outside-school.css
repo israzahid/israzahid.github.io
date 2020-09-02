@@ -1,25 +1,43 @@
+section {
+  padding: 5rem 12rem;
+}
+
 body {
-    margin: 0;
-  }
-  
-  /* NAVBAR */
-  
-  .navbar {
-    padding: 2rem 12rem;
-    font-size: 1.25rem;
-  }
-  
-  .nav-item {
-    padding: 0 2rem;
-  }
-  
-  .nav-link {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .colored-section {
-    background-color: #992044;
-  }
+  margin: 0;
+  color: #252525;
+  font-family: "Roboto", sans-serif;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.25rem;
+}
+
+.colored-section {
+  background-color: #992044;
+  color: white;
+}
+
+.black-title {
+  color: #333333;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 2rem 12rem;
+  font-size: 1.25rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+}
   
   .header-text {
       margin: 0 auto;
