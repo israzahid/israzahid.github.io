@@ -38,18 +38,17 @@ body {
 }
 
 .nav-link {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-text {
-    margin: 0 auto;
-    text-align: center;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    line-height: 5rem;
-    font-weight: 500;
-    letter-spacing: 0.25rem;
-
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 5rem;
+  font-weight: 500;
+  letter-spacing: 0.25rem;
 }
 
 .message-block {
