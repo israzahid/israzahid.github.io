@@ -27,8 +27,8 @@ body {
 /* NAVBAR */
 
 .navbar {
-  padding: 2rem 12rem;
-  font-size: 1.25rem;
+  padding: 2rem 10rem;
+  font-size: 1rem;
 }
 
 .nav-item {
@@ -38,6 +38,11 @@ body {
 .nav-link {
   font-family: "Poppins", sans-serif;
 }
+
+.navbar img {
+  width: 40px;
+}
+
 
 .header-text {
   margin: 0 auto;
