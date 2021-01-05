@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Inter&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,12 +17,9 @@
     <title>Isra Zahid</title>
   </head>
   <body id="top">
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg navbar-dark colored-section"
-    >
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
       <!-- TODO: make a cute emoticon or logo for this -->
-      <a class="navbar-brand" href="#">Isra</a>
+      <a class="navbar-brand nav-link" href="#">Isra</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -40,31 +37,67 @@
             <a class="nav-link" href="experiences/work.html">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="experiences/school-projects.html">Projects</a>
+            <a class="nav-link" href="experiences/projects.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Outside of School</a>
+            <a class="nav-link" href="#">Community</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <section id="title" class="colored-section">
-      <div class="row welcome container-fluid">
-        <div class="intro col-lg-6">
-          <h4 class="hello">HI! I'M</h4>
-          <h1 class="name">ISRA ZAHID</h1>
-          <p class="hello">a (future) biomedical and software engineer</p>
-        </div>
-        <div class="col-lg-6">
-            <img class="picture" src="images/picturewithbox.png" />
+    <section id="title">
+      <div class="container">
+        <div class="row welcome">
+          <div class="col-lg-6 first-col">
+            <div class="intro-and-links">
+              <div class="intro">
+                <h4 class="hello">HI! I'M</h4>
+                <h1 class="name">ISRA ZAHID</h1>
+                <p class="hello">
+                  a developer and (future) biomedical and software engineer
+                </p>
+              </div>
+              <div class="container links">
+                <div class="row">
+                  <div class="col-sm intro-link">
+                    <a
+                      href="https://twitter.com/_israzahid"
+                      target="_blank"
+                      class="sm-link"
+                      >Twitter</a
+                    >
+                  </div>
+                  <div class="col-sm intro-link">
+                    <a
+                      href="https://www.linkedin.com/in/isra-zahid/"
+                      target="_blank"
+                      class="sm-link"
+                      >LinkedIn</a
+                    >
+                  </div>
+                  <div class="col-sm intro-link">
+                    <a
+                      href="https://github.com/israzahid"
+                      target="_blank"
+                      class="sm-link"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="picture" src="images/me3.jpg" />
+          </div>
         </div>
       </div>
     </section>
 
     <section id="about" class="about">
-      <h1 class="subtitle black-title">ABOUT ME</h1>
-      <div class="row about-block">
+      <h1 class="subtitle black-title text-left">Highlighted Work</h1>
+      <!-- <div class="row about-block">
         <div class="img col-lg-6">
           <img class="headshot" src="images/Circle Headshot.png" />
         </div>
@@ -78,7 +111,7 @@
           challenges to involve myself with, from hackathons to side projects to
           learning new things.
         </p>
-      </div>
+      </div> -->
     </section>
 
     <section id="experience-slide" class="colored-section">
@@ -114,7 +147,7 @@
           </div>
 
           <div class="carousel-item">
-            <a href="experiences/school-projects.html">
+            <a href="experiences/projects.html">
               <img
                 src="images/school.svg"
                 class="d-block w-100 carousel-img"
@@ -134,7 +167,7 @@
           </div>
 
           <div class="carousel-item">
-            <a href="experiences/outside-school.html">
+            <a href="experiences/community.html">
               <img
                 src="images/project.svg"
                 class="d-block w-100 carousel-img"
@@ -170,52 +203,6 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
-    </section>
-
-    <section id="contact-section" class="contact-me">
-      <div>
-        <h2 class="subtitle">GET IN TOUCH</h2>
-        <div class="contact-me-text">
-          <h3>Feel free to reach out if you have any questions or concerns!</h3>
-          <p class="contact-message">
-            Below are some of the best ways to get into contact with me and some
-            other links to help get to know me better.
-          </p>
-        </div>
-        <div class="contact-padding">
-          <a
-            class="btn btn-outline-primary contact-button"
-            href="mailto:israzahid.q@gmail.com"
-            >CONTACT ME</a
-          >
-        </div>
-        <div class="other-buttons row">
-          <div class="col-lg-4">
-            <a
-              class="btn btn-outline-light secondary-contact"
-              href="https://github.com/israzahid"
-            >
-              GitHub
-          </a>
-          </div>
-          <div class="col-lg-4">
-            <a
-              class="btn btn-outline-light secondary-contact"
-              href="https://www.linkedin.com/in/isra-zahid/"
-            >
-              LinkedIn
-          </a>
-          </div>
-          <div class="col-lg-4">
-            <a
-              class="btn btn-outline-light secondary-contact"
-              href="https://israzahidq.wixsite.com/website"
-            >
-              Learning Portfolio
-          </a>
-          </div>
-        </div>
       </div>
     </section>
 

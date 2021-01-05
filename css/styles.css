@@ -1,7 +1,6 @@
 /* Welcome/Home Page */
 
-/* light color: #ffe2f3
-dark color: #851c3b */
+/* dark color: #851c3b */
 
 section {
   padding: 5rem 12rem;
@@ -14,10 +13,9 @@ body {
 }
 
 .subtitle {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.25rem;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0;
+  font-weight: 400;
 }
 
 .colored-section {
@@ -33,7 +31,7 @@ body {
 
 .navbar {
   padding: 2rem 12rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .nav-item {
@@ -61,8 +59,41 @@ body {
   font-size: 80px;
 }
 
+.first-col {
+  display: flex;
+}
+
+.intro-and-links {
+  margin: auto;
+}
+
+.intro-link {
+  text-align: center;
+}
+
+.links {
+  padding-top: 3rem;
+}
+
 .picture {
-  margin-left: 5%;
+  width: 22.5rem;
+  margin: auto;
+  /* margin-right: ; */
+  border-radius: 1.5rem;
+  display: block;
+}
+
+.intro {
+  margin-top: 5%;
+}
+
+.sm-link {
+  color:#595959;
+}
+
+.sm-link:hover{
+  text-decoration: none;
+  color:#992044;
 }
 
 /* ABOUT ME  */
