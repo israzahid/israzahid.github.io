@@ -14,12 +14,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Isra Zahid</title>
   </head>
   <body id="top">
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-      <!-- TODO: make a cute emoticon or logo for this -->
-      <a class="navbar-brand nav-link" href="#">Isra</a>
+      <a class="navbar-brand nav-link" href="#"
+        ><img src="images/Mask Group.png"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -97,24 +105,104 @@
 
     <section id="about" class="about">
       <h1 class="subtitle black-title text-left">Highlighted Work</h1>
-      <!-- <div class="row about-block">
-        <div class="img col-lg-6">
-          <img class="headshot" src="images/Circle Headshot.png" />
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="col work">
+            <img src="images/united (1).svg" />
+            <div class="work-block">
+              <h3>
+                ByteSized
+                <small class="text-muted">Co-Founder and Lead</small>
+              </h3>
+              <p>
+                A non-profit organization aiming to inspire youth to increase
+                their technical literacy and help them get started in the tech
+                industry.
+              </p>
+              <div class="container intro-link">
+                <div class="row">
+                  <div class="col">
+                    <a
+                      href="https://bytesizedto.medium.com/"
+                      target="_blank"
+                      class="sm-link"
+                      >Medium Articles</a
+                    >
+                  </div>
+                  <div class="col">
+                    <a
+                      href="https://www.instagram.com/bytesizedto/"
+                      target="_blank"
+                      class="sm-link"
+                      >Instagram</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col colored-col work">
+            <img src="images/coding.svg" />
+            <div class="work-block">
+              <h3>
+                Web Dev Projects
+                <small class="text-muted">Frontend and Backend</small>
+              </h3>
+              <p>
+                A series of projects I've completed as I've been building on my
+                developer skills.
+              </p>
+              <p class="intro-link">
+                <a
+                  href="https://github.com/israzahid"
+                  target="_blank"
+                  class="sm-link"
+                  >GitHub</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col colored-col work">
+            <img src="images/neural.svg" />
+            <div class="work-block">
+              <h3>
+                Deep Learning Dev
+                <small class="text-muted">llettonna</small>
+              </h3>
+              <p>
+                Helped develop DL models to detect infant emotion, effectiveness
+                of CBT and complete research papers/posters based off this.
+              </p>
+              <p class="intro-link">
+                <a href="https://llettonna.com" target="_blank" class="sm-link"
+                  >Llettonna Website</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col work">
+            <img src="images/idea.svg" />
+            <div class="work-block">
+              <h3>
+                RBC Innovation Challenge
+                <small class="text-muted">Connecting Advisor & Client</small>
+              </h3>
+              <p>
+                Designed an end-to-end solution to connect advisor and client in
+                an easy-to-use system, ensuring minimal physical contact
+              </p>
+              <p class="intro-link">
+                <a href="#" target="_blank" class="sm-link"
+                  >Work flow and product</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
-        <p class="about-me-text col-lg-6">
-          I am a university student at McMaster for the Integrated Biomedical
-          Engineering and Health Sciences (iBioMed) program. After my first
-          year, I specialized into Biomedical and Software Engineering. A huge
-          reason why I chose this specifically is due to my love for software
-          and my understanding of the applications of it in the healthcare
-          field. Outside of school, I am generally always looking for new
-          challenges to involve myself with, from hackathons to side projects to
-          learning new things.
-        </p>
-      </div> -->
+      </div>
     </section>
 
-    <section id="experience-slide" class="colored-section">
+    <!-- <section id="experience-slide" class="colored-section">
       <h1 class="subtitle">EXPERIENCE</h1>
       <p class="experience-text">
         You can click on any of the slides to go to its respective page (or you
@@ -204,9 +292,9 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </section>
+    </section> -->
 
-    <section class="colored-section copyright" id="copyright">
+    <section class="copyright" id="copyright">
       <a href="#top" onclick="scrollToTop();return false">Go To Top ↑</a>
       <p>© 2020 Isra Zahid.</p>
     </section>

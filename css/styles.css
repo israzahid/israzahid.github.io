@@ -3,19 +3,22 @@
 /* dark color: #851c3b */
 
 section {
-  padding: 5rem 12rem;
+  padding: 5rem 8rem;
 }
 
 body {
   margin: 0;
   color: #252525;
   font-family: "Roboto", sans-serif;
+  /* background-color: rgb(253, 253, 253); */
 }
 
 .subtitle {
   font-family: "Inter", sans-serif;
   letter-spacing: 0;
   font-weight: 400;
+  font-size:  2rem;
+  padding-bottom: 2rem;
 }
 
 .colored-section {
@@ -30,7 +33,7 @@ body {
 /* NAVBAR */
 
 .navbar {
-  padding: 2rem 12rem;
+  padding: 2rem 10rem;
   font-size: 1rem;
 }
 
@@ -40,6 +43,10 @@ body {
 
 .nav-link {
   font-family: "Poppins", sans-serif;
+}
+
+.navbar img {
+  width: 40px;
 }
 
 /* TITLE */
@@ -96,24 +103,64 @@ body {
   color:#992044;
 }
 
-/* ABOUT ME  */
+/* WORK  */
 
-.about-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 4rem;
+.col h3 {
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
 }
 
-.headshot {
-  height: 200px;
-  margin: auto;
+.col {
+  padding-top: 1.5rem;
+}
+
+.colored-col {
+  border: 1px solid #992044;
+  border-radius: .65rem;
+}
+
+.colored-col:hover {
+  background-color: #992044;
+  color: white;
+}
+
+.colored-col:hover small {
+  color:#ffb5cb!important;
+}
+
+.colored-col:hover a {
+  color:#ff7da4!important;
+}
+
+.colored-col a:hover {
+  color: #2c2c2c!important;
+}
+
+.work-block {
+  padding: 1rem;
+}
+
+.work-title {
+  display: inline-block;
+  font-size: 1.25rem;
+}
+
+.work {
   display: block;
 }
 
-.about-me-text {
-  line-height: 2;
-  margin: auto;
+.work img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.work h3 {
+  font-size: 1.25rem;
+}
+
+.work p {
+  display: block;
 }
 
 /* CAROUSEL */
@@ -222,8 +269,8 @@ body {
 
 .copyright a {
   text-decoration: underline;
-  color: white;
   display: block;
+  color: #252525;
   margin: 1rem 0;
 }
 
