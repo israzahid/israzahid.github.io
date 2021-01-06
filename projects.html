@@ -14,19 +14,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/projects.css" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d55b5b">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d55b5b" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Projects</title>
   </head>
   <body class="colored-section">
     <nav
       id="navbar"
-      class="navbar navbar-expand-lg navbar-dark colored-section"
+      class="navbar navbar-expand-lg navbar-light colored-section"
     >
       <a class="navbar-brand nav-link" href="/index.html"
         ><img src="../images/Mask Group.png"
@@ -45,7 +45,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="https://drive.google.com/file/d/1GA0jGlZu8wj4s1-sOZ0eeErxYQWU4PGg/view?usp=sharing" target="_blank">Resume</a>
+            <a
+              class="nav-link"
+              href="https://drive.google.com/file/d/1GA0jGlZu8wj4s1-sOZ0eeErxYQWU4PGg/view?usp=sharing"
+              target="_blank"
+              >Resume</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
@@ -57,14 +62,152 @@
       </div>
     </nav>
     <header>
-      <h1 class="header-text colored-section">Projects</h1>
+      <h1 class="header-text col-12">Projects</h1>
+      <div class="line"></div>
     </header>
-    <div class="colored-section">
-      <div class="message-block">
-        <img src="../images/under-construction.png" />
-        <span class="message">Workng On This Page</span>
-        <img src="../images/under-construction.png" />
+
+    <section id="projects">
+      <div class="container">
+        <div class="row project">
+          <img src="images/seo.svg" class="col-2" />
+          <div class="col-9">
+            <h3 class="subtitle">Research Assistant</h3>
+            <p class="text-muted">@ Llettonna</p>
+            <p>
+              Helped to develop machine learning models and a neural network to
+              predict the effective of Cognitive Behavioural Therapy (CBT) on
+              mothers experiencing postpartum depression (PPD). We reached
+              accuracies of around 80%. Subsequently, co-authored the research
+              poster and research paper (expected publication April 2021)
+            </p>
+          </div>
+        </div>
+        <div class="row project">
+          <img src="images/heart.svg" class="col-2" />
+          <div class="col-9">
+            <h3 class="subtitle">Deep Learning Developer</h3>
+            <p class="text-muted">@ Llettonna</p>
+            <p>
+              Developing deep learning models to predict emotions from infant
+              faces in hopes to help with their psychosocial health. Working
+              with team members to do coding sessions collaboratively to traing,
+              test and improve the accuracy of our models. Hoping to compile our
+              work into a research paper as well!
+            </p>
+          </div>
+        </div>
+        <div class="row project">
+          <img class="col-2" src="images/idea.svg" />
+          <div class="col-9">
+            <h3 class="subtitle">RBC Innovation Challenge</h3>
+            <p class="text-muted">
+              Helping the elder generations during the struggles of COVID-19
+            </p>
+            <p>
+              Working with 4 other RBC co-op students, we were asked to analyze
+              the prompt and develop a solution complete with business model. My
+              partner and I worked together on the product design, understanding
+              the advantages and limitations of the current RBC app with a UI/UX
+              lens; we used this to develop our solution, keeping the end goal
+              in mind.
+            </p>
+          </div>
+        </div>
+        <div class="row project">
+          <img src="images/to-do-list.svg" class="col-2" />
+          <div class="col-9">
+            <h3 class="subtitle">To Do List</h3>
+            <p class="text-muted">
+              NodeJS, ExpressJS, EJS, MongoDB, Mongoose, HTML, CSS, JS
+            </p>
+            <p>
+              The to do list uses MongoDB as the backend to keep track of what
+              the user has put into the to do list, giving the ability to
+              revisit the site anytime and never losing their progress. Users
+              also have ability to create specific lists by adding
+              <code>/newListName</code> in the URL with
+              <code>newListName</code> being the name of the list that they
+              create.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <img src="images/pills.svg" class="col-2" />
+          <div class="col-9">
+            <h3 class="subtitle">SmartCap</h3>
+            <p class="text-muted">
+              Designed to help a patient with limited joint movement
+            </p>
+            <p>
+              As apart of my design course, we worked directly with a student
+              who had an undiagnosed condition where she had limited movement. 
+              She noted a significant difficulty with her hands and the fact she
+              required to take a variety of pills to help her. My team and I 
+              designed and easy-to-use product that would not require much force
+              while still ensuring the safety and protectiveness of her pills.
+            </p>
+            <a href="https://israzahidq.wixsite.com/website/dp-2-copy-1" target="_blank" type="button" class="btn btn-outline-dark">Read The Work Flow</a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section id="footer">
+      <div class="container footer-links">
+        <div class="row">
+          <div class="col-sm intro-link">
+            <a
+              href="https://twitter.com/_israzahid"
+              target="_blank"
+              class="sm-link"
+              >Twitter</a
+            >
+          </div>
+          <div class="col-sm intro-link">
+            <a
+              href="https://www.linkedin.com/in/isra-zahid/"
+              target="_blank"
+              class="sm-link"
+              >LinkedIn</a
+            >
+          </div>
+          <div class="col-sm intro-link">
+            <a
+              href="https://github.com/israzahid"
+              target="_blank"
+              class="sm-link"
+              >GitHub</a
+            >
+          </div>
+          <div class="col-sm intro-link">
+            <a
+              href="https://www.linkedin.com/in/isra-zahid/"
+              target="_blank"
+              class="sm-link"
+              >Email</a
+            >
+          </div>
+        </div>
+      </div>
+      <a href="#top" onclick="scrollToTop();return false">Go To Top</a>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

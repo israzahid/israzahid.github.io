@@ -1,29 +1,30 @@
 /* Projects Page */
 
 section {
-  padding: 5rem 12rem;
+  padding: 2.5rem 11rem;
 }
 
 body {
   margin: 0;
   color: #252525;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
 .subtitle {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.25rem;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-size:  1.5rem;
 }
 
-.colored-section {
-  background-color: #992044;
-  color: white;
-}
-
-.black-title {
-  color: #333333;
+@media only screen and (max-width: 992px){
+  header, .navbar {
+    padding: .5rem!important;
+  }
+  section {
+    padding: 0;
+  }
 }
 
 /* NAVBAR */
@@ -49,29 +50,51 @@ body {
   width: 40px;
 }
 
+/* HEADER */
+
+header {
+  padding: 0 10rem;
+}
 
 .header-text {
-  margin: 0 auto;
-  text-align: center;
-  color: white;
+  margin: 0;
   font-family: "Poppins", sans-serif;
-  line-height: 5rem;
-  font-weight: 500;
-  letter-spacing: 0.25rem;
+  font-weight: 300;
+  font-size: 2.25rem;
+  line-height: 3.5rem;
 }
 
-.message-block {
-  height: 300px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.line {
+  margin-left: 1rem;
+  width: 15rem;
+  height: 5px;
+  background-color: #992044;
 }
 
-.message {
-  color: white;
-  vertical-align: middle;
-  font-family: "Poppins", sans-serif;
-  font-size: 3rem;
-  padding: 0 3rem;
+/* PROJECTS */
+
+.project {
+  padding-bottom: 2rem;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-links {
+  padding: 1rem 0;
+}
+
+#footer a {
+  text-align: center;
+  color: #363636;
+}
+
+#footer a:hover {
+  color:#992044;
+  text-decoration: none;
 }
