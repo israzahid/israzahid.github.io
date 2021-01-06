@@ -3,7 +3,7 @@
 /* dark color: #851c3b */
 
 section {
-  padding: 5rem 8rem;
+  padding: 2.5rem 8rem;
 }
 
 body {
@@ -21,15 +21,6 @@ body {
   padding-bottom: 2rem;
 }
 
-.colored-section {
-  background-color: #992044;
-  color: white;
-}
-
-.black-title {
-  color: #333333;
-}
-
 /* NAVBAR */
 
 .navbar {
@@ -43,6 +34,10 @@ body {
 
 .nav-link {
   font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover {
+  color:#992044!important;
 }
 
 .navbar img {
@@ -71,7 +66,7 @@ body {
 }
 
 .intro-and-links {
-  margin: auto;
+  margin: auto 0;
 }
 
 .intro-link {
@@ -163,42 +158,6 @@ body {
   display: block;
 }
 
-/* CAROUSEL */
-
-.carousel-item {
-  padding: 7% 15%;
-}
-
-.carousel-img {
-  margin: auto;
-  height: 100px;
-}
-
-.carousel-title {
-  padding: 2rem 0 1rem;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-}
-
-.carousel-text {
-  text-align: justify;
-  width: 75%;
-  margin: auto;
-  line-height: 1.75;
-}
-
-.carousel-item a {
-  text-decoration: none;
-  color: white;
-}
-
-.experience-text {
-  text-align: center;
-  width: 50%;
-  margin: auto;
-  padding-top: 1rem;
-}
-
 /* CONTACT SECTION */
 
 .contact-me {
@@ -259,19 +218,30 @@ body {
 
 /* COPYRIGHT */
 
-#copyright {
+#footer {
   padding: 1rem;
-}
-
-.copyright {
+  margin: auto;
   text-align: center;
 }
 
-.copyright a {
-  text-decoration: underline;
-  display: block;
-  color: #252525;
-  margin: 1rem 0;
+.footer-title {
+  font-size: 1.25rem;
+  color: #444444;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-links {
+  padding: 1rem 0;
+}
+
+#footer a {
+  text-align: center;
+  color: #363636;
+}
+
+#footer a:hover {
+  color:#992044;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
