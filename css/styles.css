@@ -80,7 +80,6 @@ body {
 .picture {
   width: 22.5rem;
   margin: auto;
-  /* margin-right: ; */
   border-radius: 1.5rem;
   display: block;
 }
@@ -91,6 +90,12 @@ body {
 
 .sm-link {
   color:#595959;
+}
+
+@media only screen and (max-width: 575px){
+  .intro-link {
+    padding-top: .5rem;
+  }
 }
 
 .sm-link:hover{
@@ -247,14 +252,39 @@ body {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 992px) {
-  section,
-  .navbar {
+  section {
     padding: 3rem 5rem;
   }
-  .welcome {
-    margin: auto;
+
+  .navbar {
+    padding: 1rem 5rem;
   }
-  .about-me-text {
-    margin-top: 2rem;
+
+  .links {
+    padding-top: 0;
+  }
+
+  .intro-and-links {
+    margin: auto;
+    padding-bottom: 1.5rem;
+  }
+
+  .work-block {
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  section {
+    padding: 2.5rem;
+  }
+  .navbar {
+    padding: 1rem 2.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  section {
+    padding: 1rem;
   }
 }
