@@ -1,27 +1,12 @@
 section {
-  padding: 5rem 12rem;
+  padding: 2.5rem 11rem;
 }
 
 body {
   margin: 0;
   color: #252525;
   font-family: "Roboto", sans-serif;
-}
-
-.subtitle {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.25rem;
-}
-
-.colored-section {
-  background-color: #992044;
-  color: white;
-}
-
-.black-title {
-  color: #333333;
+  background-color: rgb(255, 255, 255);
 }
 
 /* NAVBAR */
@@ -67,3 +52,66 @@ header {
   height: 5px;
   background-color: #992044;
 }
+
+@media only screen and (max-width: 992px){
+  header, .navbar {
+    padding: .5rem!important;
+  }
+  section {
+    padding: 0;
+  }
+}l
+
+/* LIST */
+
+.subtitle {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-size:  1.5rem;
+}
+
+.item {
+  padding-bottom: 2rem;
+}
+
+.link {
+  color: #595959;
+}
+
+.link:hover {
+  color: #992044;
+  text-decoration: none;
+}
+
+.link a {
+  color: #595959;
+}
+
+.link a:hover {
+  color: #992044;
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-links {
+  padding: 1rem 0;
+}
+
+#footer a {
+  text-align: center;
+  color: #363636;
+}
+
+#footer a:hover {
+  color:#992044;
+  text-decoration: none;
+}
+
