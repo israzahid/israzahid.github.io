@@ -110,6 +110,14 @@ header p {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 600px){
+  #community img {
+    width: 10rem;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+}
+
 /* FOOTER */
 
 #footer {
