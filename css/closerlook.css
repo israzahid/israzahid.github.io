@@ -1,0 +1,86 @@
+/* Projects Page */
+
+section {
+    padding: 2.5rem 11rem;
+  }
+  
+  body {
+    margin: 0;
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .subtitle {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size:  1.5rem;
+  }
+  
+  @media only screen and (max-width: 992px){
+    header, .navbar {
+      padding: .5rem!important;
+    }
+    section {
+      padding: 0;
+    }
+  }
+  
+  /* NAVBAR */
+  
+  .navbar {
+    padding: 2rem 10rem;
+    font-size: 1rem;
+  }
+  
+  .nav-item {
+    padding: 0 1rem;
+  }
+  
+  .nav-link {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #992044;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  .navbar img {
+    width: 40px;
+  }
+  
+  /* HEADER */
+  
+  header {
+    padding: 0 10rem;
+  }
+  
+  .header-text {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+  }
+  
+  .line {
+    margin-left: 1rem;
+    width: 15rem;
+    height: 5px;
+    background-color: #992044;
+  }
+  
