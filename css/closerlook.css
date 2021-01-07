@@ -1,4 +1,4 @@
-/* Projects Page */
+/* Closer Look Page */
 
 section {
     padding: 2.5rem 11rem;
@@ -12,9 +12,9 @@ section {
   }
   
   .subtitle {
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 0;
-    font-weight: 400;
+    font-weight: 500;
     font-size:  1.5rem;
   }
   
@@ -82,5 +82,42 @@ section {
     width: 15rem;
     height: 5px;
     background-color: #992044;
+  }
+
+  header p{
+      margin-top: 1rem;
+  }
+
+  /* SECTION */
+
+  img {
+      border-radius: 1.5rem;
+      margin: auto;
+  }
+
+  .text-justify {
+      margin-top: 1.5rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .footer-links {
+    padding: 1rem 0;
+  }
+  
+  footer a {
+    text-align: center;
+    color: #363636;
+  }
+  
+  footer a:hover {
+    color:#992044;
+    text-decoration: none;
   }
   
