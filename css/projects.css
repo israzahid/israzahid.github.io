@@ -89,6 +89,12 @@ header {
   padding: 1rem 0;
 }
 
+@media only screen and (max-width: 575px){
+  .intro-link {
+    padding-top: .5rem;
+  }
+}
+
 #footer a {
   text-align: center;
   color: #363636;
