@@ -94,6 +94,10 @@ header {
   padding-bottom: 2rem;
 }
 
+.challenge {
+  padding: 0;
+}
+
 /* FOOTER */
 
 #footer {
