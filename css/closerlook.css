@@ -23,7 +23,7 @@ section {
       padding: .5rem!important;
     }
     section {
-      padding: 0;
+      padding: 0!important;
     }
   }
   
