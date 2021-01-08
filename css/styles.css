@@ -238,6 +238,9 @@ body {
   .navbar {
     padding: 1rem 2.5rem 0;
   }
+  .navbar img {
+    margin-left: -2rem;
+  }
 }
 
 @media only screen and (max-width: 600px){
