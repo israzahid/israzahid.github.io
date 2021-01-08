@@ -38,6 +38,7 @@ body {
 
 .navbar img {
   width: 40px;
+  margin-left: -1.5rem;
 }
 
 .nav-link:after {    
@@ -55,10 +56,6 @@ body {
 .nav-link:hover:after { 
   width: 100%; 
   left: 0; 
-}
-
-.navbar img {
-  margin-left: -1.5rem;
 }
 
 /* TITLE */

@@ -26,6 +26,7 @@ body {
 
 .navbar img {
   width: 40px;
+  margin-left: -.5rem;
 }
 
 .nav-link:after {    
