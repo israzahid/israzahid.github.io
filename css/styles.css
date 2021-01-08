@@ -57,6 +57,10 @@ body {
   left: 0; 
 }
 
+.navbar img {
+  margin-left: -1.5rem;
+}
+
 /* TITLE */
 
 .intro {
