@@ -89,6 +89,9 @@
   .text-justify {
       margin-top: 1.5rem;
   }
+  .about-me {
+    margin: auto 0;
+  }
 
   /* FOOTER */
 
@@ -119,7 +122,7 @@
       padding: 0;
     }
     .about-me {
-      padding-right: 1rem;
+      padding-right: 2.5rem;
     }
   }
 
