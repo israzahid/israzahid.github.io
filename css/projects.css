@@ -137,6 +137,9 @@ header {
     margin: auto;
     padding-bottom: 1rem;
   }
+  .nav-item {
+    padding: 0 1.5rem;
+  }
 }
 
 

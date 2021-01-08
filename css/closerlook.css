@@ -153,4 +153,7 @@
     #look img {
       height: 50%;
     }
+    .nav-item {
+      padding: 0 2.5rem;
+    }
   }
