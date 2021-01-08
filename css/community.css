@@ -71,13 +71,19 @@ header p {
 }
 
 @media only screen and (max-width: 992px){
-  header, .navbar {
+  .navbar {
     padding: .5rem!important;
+  }
+  header {
+    padding: 0!important;
   }
   section {
     padding: 0;
   }
-}l
+  .navbar img {
+    margin-left: -1rem;
+  }
+}
 
 /* LIST */
 

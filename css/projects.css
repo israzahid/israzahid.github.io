@@ -19,11 +19,19 @@ body {
 }
 
 @media only screen and (max-width: 992px){
-  header, .navbar {
+  .navbar {
     padding: .5rem!important;
   }
+
+  header {
+    padding: .5rem!important;
+  }
+
   section {
-    padding: 0;
+    padding: 0 .5rem;
+  }
+  .navbar img {
+    margin-left: -.5rem;
   }
 }
 
