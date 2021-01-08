@@ -70,21 +70,6 @@ header p {
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 992px){
-  .navbar {
-    padding: .5rem!important;
-  }
-  header {
-    padding: 0!important;
-  }
-  section {
-    padding: 0;
-  }
-  .navbar img {
-    margin-left: -1rem;
-  }
-}
-
 /* LIST */
 
 .subtitle {
@@ -116,14 +101,6 @@ header p {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px){
-  #community img {
-    width: 10rem;
-    margin: auto;
-    padding-bottom: 1rem;
-  }
-}
-
 /* FOOTER */
 
 #footer {
@@ -146,3 +123,27 @@ header p {
   text-decoration: none;
 }
 
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 992px){
+  .navbar {
+    padding: 1rem!important;
+  }
+  header {
+    padding: 0 .5rem!important;
+  }
+  section {
+    padding: 0 .5rem;
+  }
+  .navbar img {
+    margin-left: -1rem;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #community img {
+    width: 10rem;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+}
